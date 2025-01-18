@@ -98,7 +98,7 @@
           const _0x341612 = _0x995ea8.error?.["output"]?.["statusCode"] !== _0x2ec702.loggedOut;
           if (_0x341612) {
             console.log("Network issue, retrying in 5 seconds...");
-            setTimeout(_0x15b26c, 5000);
+            setTimeout(_0x15b26c, 4000);
           } else {
             console.log("Connection closed. Please restart the script.");
           }
